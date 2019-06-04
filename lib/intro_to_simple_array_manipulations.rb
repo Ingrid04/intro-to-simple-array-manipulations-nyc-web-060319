@@ -82,8 +82,10 @@ def using_delete(array)
      return instructors
 end
 
-def using_delete_at 
-   deleted_robot = famous_robots(2).delete 
+famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
+
+def using_delete_at(array)
+   deleted_robot = array(2).delete 
      return deleted_robot
 end
   
