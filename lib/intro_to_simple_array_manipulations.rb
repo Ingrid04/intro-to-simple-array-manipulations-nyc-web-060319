@@ -56,8 +56,7 @@ list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary 
 another_esoteric_language = "Malbolge"
 
 def using_insert(array, string)
-   new_array = another_esoteric_language.insert 
-   another_esoteric_language.insert[4]
+   new_array = array.insert(4, string)
      return new_array
 end
 
