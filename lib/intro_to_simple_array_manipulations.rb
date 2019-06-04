@@ -77,7 +77,7 @@ end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 
-def using_delete(array)
+def using_delete(array, "Steven")
    instructors = array.delete 
      return instructors
 end
