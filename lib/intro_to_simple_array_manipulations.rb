@@ -75,6 +75,8 @@ def using_flatten(array)
      return flat_array
 end
 
+
+
 def using_delete
    instructors.delete 
      return instructors
