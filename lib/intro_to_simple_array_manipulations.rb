@@ -60,7 +60,7 @@ def using_insert(array, string)
      return new_array
 end
 
-def using_uniq
+def using_uniq 
    new_array = captain_planet_and_the_planeteers.uniq 
      return new_array
 end
