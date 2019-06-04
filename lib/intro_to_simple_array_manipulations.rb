@@ -47,7 +47,7 @@ my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
 more_favs = ["mario kart", "flatiron school"]
 
 def using_concat(array1, array2)
-   all_my_favs = array1.concat([array2])
+   all_my_favs = array1.concat(array2)
      return all_my_favs
 end
 
