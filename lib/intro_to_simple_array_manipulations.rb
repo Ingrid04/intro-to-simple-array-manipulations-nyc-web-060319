@@ -60,8 +60,11 @@ def using_insert(array, string)
      return new_array
 end
 
-def using_uniq 
-   new_array = captain_planet_and_the_planeteers.uniq 
+
+captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+
+def using_uniq(array)
+   new_array = array.uniq 
      return new_array
 end
 
