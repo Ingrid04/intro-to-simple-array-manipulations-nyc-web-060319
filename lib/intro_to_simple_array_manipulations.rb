@@ -75,14 +75,14 @@ def using_flatten(array)
      return flat_array
 end
 
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 
-
-def using_delete
-   instructors.delete 
+def using_delete(array)
+   instructors = array.delete 
      return instructors
 end
 
-def using_delete_at
+def using_delete_at 
    deleted_robot = famous_robots(2).delete 
      return deleted_robot
 end
